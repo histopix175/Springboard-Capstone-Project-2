@@ -1,0 +1,2 @@
+Model Name,Model Type,Target Variable,Train/Test Split,Random State,Number of Features,Accuracy,Precision,Recall,F1 Score,ROC-AUC,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features
+Hotel Reservation Cancellation Predictor,Random Forest Classifier,is_canceled,80/20,42,1970,0.9001716247139588,0.9396551724137931,0.6805411030176899,0.7893783946891973,0.9665612045309476,200,,2,1,sqrt
