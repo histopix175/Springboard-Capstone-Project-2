@@ -20,46 +20,6 @@ Predict cancellation risk at the reservation level so hotels can:
 
 ---
 
-## Notebooks and code
-- [Data Wrangling](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-DataWrangling.ipynb)
-- [Preprocessing](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-Preprocessing.ipynb)
-- [Exploratory Data Analysis](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-EDA.ipynb)
-- [Modeling](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH%20Capstone2%20Modeling.ipynb)
-
-## Data Sources
-- **Hotel Booking Demand Dataset (Kaggle)**  
-  https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
-- **Open-Meteo Weather API**  
-  https://open-meteo.com/
-
-The final dataset contains booking, customer, pricing, and weather forecast information.
-
----
-
-## Project Structure
-Springboard-Capstone-Project-2/
-│
-├── Data/
-│ ├── hotel_weather_cleaned.csv
-│ ├── hotel_weather_preprocessed_df.csv
-│
-├── Notebooks/
-│ ├── 01_Data_Wrangling.ipynb
-│ ├── 02_EDA.ipynb
-│ ├── 03_Preprocessing.ipynb
-│ ├── 04_Modeling.ipynb
-│
-├── Figures/
-│ ├── correlation_heatmap.png
-│ ├── roc_curve.png
-│ ├── model_comparison.png
-│
-├── Reports/
-│ ├── Capstone_Final_Report.pdf
-│ ├── Model_Metrics.txt
-│
-└── README.md
-
 ## Key Recommendation
 Apply the trained Random Forest model to **new incoming reservations** to generate a **cancellation probability**.
 
@@ -74,6 +34,22 @@ This probability can be used to:
 - Oversell recommendation model using predicted cancellation probabilities
 - Dynamic cancellation policy assignment based on risk
 - Model retraining with real-time booking behavior
+
+---
+
+## Notebooks and code
+- [Data Wrangling](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-DataWrangling.ipynb)
+- [Preprocessing](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-Preprocessing.ipynb)
+- [Exploratory Data Analysis](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH-Capstone2-EDA.ipynb)
+- [Modeling](https://github.com/histopix175/Springboard-Capstone-Project-2/blob/main/Notebooks/CH%20Capstone2%20Modeling.ipynb)
+
+## Data Sources
+- **Hotel Booking Demand Dataset (Kaggle)**  
+  https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+- **Open-Meteo Weather API**  
+  https://open-meteo.com/
+
+The final dataset contains booking, customer, pricing, and weather forecast information.
 
 ---
 
