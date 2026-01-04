@@ -38,16 +38,26 @@ The final dataset contains booking, customer, pricing, and weather forecast info
 
 ## Project Structure
 Springboard-Capstone-Project-2/
+│
 ├── Data/
-│ ├── raw/
-│ └── processed/
+│ ├── hotel_weather_cleaned.csv
+│ ├── hotel_weather_preprocessed_df.csv
+│
 ├── Notebooks/
 │ ├── 01_Data_Wrangling.ipynb
 │ ├── 02_EDA.ipynb
 │ ├── 03_Preprocessing.ipynb
-│ └── 04_Modeling.ipynb
-├── figures/
-├── Model_Metrics.csv
+│ ├── 04_Modeling.ipynb
+│
+├── Figures/
+│ ├── correlation_heatmap.png
+│ ├── roc_curve.png
+│ ├── model_comparison.png
+│
+├── Reports/
+│ ├── Capstone_Final_Report.pdf
+│ ├── Model_Metrics.txt
+│
 └── README.md
 
 ## Key Recommendation
